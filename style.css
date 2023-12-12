@@ -21,3 +21,17 @@ h1{
 .navbar li{
     float: right;
 }
+th, td {
+    background-color: rgb(95, 173, 173);
+  }
+  
+.first{
+    background-color: yellow;
+}
+.second{
+    background-color: gray;
+}
+.third{
+    background-color: rgb(224, 126, 13);
+}
+

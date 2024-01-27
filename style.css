@@ -1,37 +1,40 @@
+main{
+    margin-right: 20px;
+    margin-left: 20px;
+}
 h1{
     text-align: center;
 }
 .navbar ul{
     list-style-type: none;
-    background-color: #3e3e3e;
+    background-color: #e3e3e3;
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
+
+.navbar li{
+    float: left;
+}
+table{
+    border-style: hidden;
+}
+tr{
     text-align: center;
 }
-.navbar a:hover{
-    background-color: #282828;
-}
-.navbar li{
-    float: right;
-}
-th, td {
-    background-color: rgb(95, 173, 173);
-  }
-  
-.first{
-    background-color: yellow;
-}
-.second{
-    background-color: gray;
-}
-.third{
-    background-color: rgb(224, 126, 13);
+.dark-mode {
+    background-color: black;
+    color: white;
 }
 
+.light-mode {
+    background-color: white;
+    color: black;
+}
+body{
+    background-image: linear-gradient(1deg, red,orange);
+}
+#h1{
+    background-color: white;
+    opacity: 1;
+}

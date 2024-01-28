@@ -1,6 +1,6 @@
-main{
-    margin-right: 20px;
-    margin-left: 20px;
+html{
+    margin-right: 5%;
+    margin-left: 5%;
 }
 h1{
     text-align: center;
@@ -20,21 +20,14 @@ table{
     border-style: hidden;
 }
 tr{
-    text-align: center;
-}
-.dark-mode {
-    background-color: black;
-    color: white;
-}
-
-.light-mode {
-    background-color: white;
-    color: black;
+    text-align: left;
 }
 body{
     background-image: linear-gradient(1deg, red,orange);
 }
-#h1{
-    background-color: white;
-    opacity: 1;
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(1.5);
 }
